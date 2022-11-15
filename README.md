@@ -76,7 +76,7 @@ aws ecr describe-images --repository-name <chartName> --region <your-region> --p
 ```console
 helm install <applicationName> --create-namespace --namespace <k8s-namespace> oci://<YOUR-AWS-ACCOUNT-ID>.dkr.ecr.<your-region>.amazonaws.com/<chartName> --version <chartVersion>
 ```
-#### 9. To uninstall the Helm chart
+#### 10. To uninstall the Helm chart
 ```console
 helm delete <applicationName> --namespace <k8s-namespace>
 ```
